@@ -1,8 +1,9 @@
 {
   "name": "tleckie/cache",
-  "license": "proprietary",
-  "description": "Version 1.0",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "description": "PSR-6 and PSR-16 Couchbase cache",
   "type": "library",
+  "homepage": "https://github.com/teodoroleckie/cache",
   "authors": [
     {
       "name": "Teodoro Leckie Westberg",
