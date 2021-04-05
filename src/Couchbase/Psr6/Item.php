@@ -1,6 +1,6 @@
 <?php
 
-namespace Tleckie\Cache\Infrastructure\Couchbase\Psr6;
+namespace Tleckie\Cache\Couchbase\Psr6;
 
 use DateInterval;
 use DateTime;
@@ -11,7 +11,7 @@ use function is_int;
 /**
  * Class Item
  *
- * @package Tleckie\Cache\Infrastructure\Couchbase\Psr6
+ * @package Tleckie\Cache\Couchbase\Psr6
  * @author  Teodoro Leckie Westberg <teodoroleckie@gmail.com>
  */
 class Item implements CacheItemInterface

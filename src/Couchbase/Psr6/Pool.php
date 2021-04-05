@@ -1,9 +1,9 @@
 <?php
 
-namespace Tleckie\Cache\Infrastructure\Couchbase\Psr6;
+namespace Tleckie\Cache\Couchbase\Psr6;
 
-use Tleckie\Cache\Infrastructure\Couchbase\Client;
-use Tleckie\Cache\Infrastructure\Couchbase\Psr6\Exception\InvalidArgumentException;
+use Tleckie\Cache\Couchbase\Client;
+use Tleckie\Cache\Couchbase\Psr6\Exception\InvalidArgumentException;
 use Couchbase\BaseException;
 use Couchbase\DocumentNotFoundException;
 use Psr\Cache\CacheItemInterface;
@@ -13,7 +13,7 @@ use Closure;
 /**
  * Class Pool
  *
- * @package Tleckie\Cache\Infrastructure\Couchbase\Psr6
+ * @package Tleckie\Cache\Couchbase\Psr6
  * @author  Teodoro Leckie Westberg <teodoroleckie@gmail.com>
  */
 class Pool implements CacheItemPoolInterface

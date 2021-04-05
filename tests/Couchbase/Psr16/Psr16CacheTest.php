@@ -1,10 +1,10 @@
 <?php
 
-namespace Tleckie\Cache\Tests\Infrastructure\Couchbase\Psr16;
+namespace Tleckie\Cache\Tests\Couchbase\Psr16;
 
-use Tleckie\Cache\Infrastructure\Couchbase\Client;
-use Tleckie\Cache\Infrastructure\Couchbase\Psr16\Exception\InvalidArgumentException;
-use Tleckie\Cache\Infrastructure\Couchbase\Psr16\Psr16Cache;
+use Tleckie\Cache\Couchbase\Client;
+use Tleckie\Cache\Couchbase\Psr16\Exception\InvalidArgumentException;
+use Tleckie\Cache\Couchbase\Psr16\Psr16Cache;
 use Couchbase\DocumentNotFoundException;
 use Couchbase\BaseException;
 use PHPUnit\Framework\MockObject\MockObject;
@@ -13,8 +13,8 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class Psr16CacheTest
  *
- * @covers Tleckie\Cache\Infrastructure\Couchbase\Psr16\Psr16Cache
- * @package Tleckie\Cache\Tests\Infrastructure\Couchbase\Psr16
+ * @covers Tleckie\Cache\Couchbase\Psr16\Psr16Cache
+ * @package Tleckie\Cache\Tests\Couchbase\Psr16
  * @author  Teodoro Leckie Westberg <teodoroleckie@gmail.com>
  */
 class Psr16CacheTest extends TestCase

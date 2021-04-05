@@ -1,8 +1,8 @@
 <?php
 
-namespace Tleckie\Cache\Tests\Infrastructure\Couchbase;
+namespace Tleckie\Cache\Tests\Couchbase;
 
-use Tleckie\Cache\Infrastructure\Couchbase\Client;
+use Tleckie\Cache\Couchbase\Client;
 use Couchbase\Bucket;
 use Couchbase\Cluster;
 use Couchbase\Collection;
@@ -20,8 +20,8 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class CbTest
  *
- * @covers  \Tleckie\Cache\Infrastructure\Couchbase\Client
- * @package Tleckie\Cache\Tests\Infrastructure\Couchbase
+ * @covers  \Tleckie\Cache\Couchbase\Client
+ * @package Tleckie\Cache\Tests\Couchbase
  * @author  Teodoro Leckie Westberg <teodoroleckie@gmail.com>
  */
 class ClientTest extends TestCase

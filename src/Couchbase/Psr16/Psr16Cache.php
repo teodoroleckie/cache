@@ -1,9 +1,9 @@
 <?php
 
-namespace Tleckie\Cache\Infrastructure\Couchbase\Psr16;
+namespace Tleckie\Cache\Couchbase\Psr16;
 
-use Tleckie\Cache\Infrastructure\Couchbase\Client;
-use Tleckie\Cache\Infrastructure\Couchbase\Psr16\Exception\InvalidArgumentException;
+use Tleckie\Cache\Couchbase\Client;
+use Tleckie\Cache\Couchbase\Psr16\Exception\InvalidArgumentException;
 use Couchbase\BaseException;
 use Couchbase\DocumentNotFoundException;
 use Psr\SimpleCache\CacheInterface;

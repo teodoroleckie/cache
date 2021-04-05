@@ -1,5 +1,5 @@
 <?php
-namespace Tleckie\Cache\Infrastructure\Couchbase\Psr16\Exception;
+namespace Tleckie\Cache\Couchbase\Psr16\Exception;
 
 use \Psr\SimpleCache\CacheException as ParentCacheException;
 use Exception;
@@ -7,7 +7,7 @@ use Exception;
 /**
  * Class CacheException
  *
- * @package Tleckie\Cache\Infrastructure\Couchbase\Psr16\Exception
+ * @package Tleckie\Cache\Couchbase\Psr16\Exception
  * @author  Teodoro Leckie Westberg <teodoroleckie@gmail.com>
  */
 class CacheException extends Exception implements ParentCacheException {

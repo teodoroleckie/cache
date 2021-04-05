@@ -1,12 +1,12 @@
 <?php
 
-namespace Tleckie\Cache\Tests\Infrastructure\Couchbase\Psr6;
+namespace Tleckie\Cache\Tests\Couchbase\Psr6;
 
 
-use Tleckie\Cache\Infrastructure\Couchbase\Client;
-use Tleckie\Cache\Infrastructure\Couchbase\Psr6\Exception\InvalidArgumentException;
-use Tleckie\Cache\Infrastructure\Couchbase\Psr6\Item;
-use Tleckie\Cache\Infrastructure\Couchbase\Psr6\Pool;
+use Tleckie\Cache\Couchbase\Client;
+use Tleckie\Cache\Couchbase\Psr6\Exception\InvalidArgumentException;
+use Tleckie\Cache\Couchbase\Psr6\Item;
+use Tleckie\Cache\Couchbase\Psr6\Pool;
 use Couchbase\BaseException;
 use Couchbase\StoreResultImpl;
 use PHPUnit\Framework\MockObject\MockObject;
@@ -15,8 +15,8 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class PoolTest
  *
- * @covers  \Tleckie\Cache\Infrastructure\Couchbase\Psr6\Pool
- * @package Tleckie\Cache\Tests\Infrastructure\Couchbase\Psr6
+ * @covers  \Tleckie\Cache\Couchbase\Psr6\Pool
+ * @package Tleckie\Cache\Tests\Couchbase\Psr6
  * @author  Teodoro Leckie Westberg <teodoroleckie@gmail.com>
  */
 class PoolTest extends TestCase

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tleckie\Cache\Infrastructure\Couchbase;
+namespace Tleckie\Cache\Couchbase;
 
 use Couchbase\Bucket;
 use Couchbase\Cluster;
@@ -13,7 +13,7 @@ use DateTime;
 /**
  * Class Connection
  *
- * @package Tleckie\Cache\Infrastructure\Couchbase
+ * @package Tleckie\Cache\Couchbase
  * @author  Teodoro Leckie Westberg <teodoroleckie@gmail.com>
  */
 class Client
