@@ -1,5 +1,6 @@
 {
   "name": "tleckie/cache",
+  "license": "LGPL-3.0-only",
   "description": "PSR-6 and PSR-16 Couchbase cache",
   "type": "library",
   "homepage": "https://github.com/teodoroleckie/cache",
