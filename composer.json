@@ -1,7 +1,7 @@
 {
   "name": "tleckie/cache",
   "license": "LGPL-3.0-only",
-  "description": "PSR-6 and PSR-16 Couchbase cache",
+  "description": "PSR-6 and PSR-16 Couchbase cache adapter",
   "type": "library",
   "homepage": "https://github.com/teodoroleckie/cache",
   "authors": [
@@ -9,6 +9,17 @@
       "name": "Teodoro Leckie Westberg",
       "email": "teodoroleckie@gmail.com"
     }
+  ],
+  "keywords": [
+    "tleckie",
+    "php-couchbase",
+    "couchbase",
+    "couchbase-php",
+    "php",
+    "couchbase-cache",
+    "PSR-6",
+    "PSR-16",
+    "php-8"
   ],
   "autoload": {
     "psr-4": {
